@@ -19,6 +19,12 @@ target/
 *.iml
 *.ipr
 
+## 4. **Vérifiez `.gitignore`**
+.env
+*.env
+!.env.example
+
+
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
